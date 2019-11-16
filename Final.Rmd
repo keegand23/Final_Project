@@ -4,10 +4,71 @@ author: "Keegan Donovan"
 date: "11/16/2019"
 output: html_document
 ---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+#Final Exam
+##Lab Infinity
 
 ```{r}
-#Trial
-#Trial
+library(dplyr)
+library(tidyverse)
+library(readr)
+
+clover_2010_2013 <- read_csv("Clover/CSV_FIles/2010_2013.csv")
+clover_2010_2013
+
+clover_2013_2017_15min <- read_csv("Clover/CSV_FIles/2013_2017_15min.csv")
+clover_2013_2017_15min
+
+clover_2013_2017_60min <- read_csv("Clover/CSV_FIles/2013_2017_60min.csv")
+clover_2013_2017_60min
+
+HJ_Summer2012 <- read_csv("Clover/CSV_FIles/HJ_Summer2012.csv")
+HJ_Summer2012
+
+HJ_Summer2014 <- read_csv("Clover/CSV_FIles/HJ_Summer2014.csv")
+HJ_Summer2014
+
+HJ_Summer2017 <- read_csv("Clover/CSV_FIles/HJ_Summer2017.csv")
+HJ_Summer2017
 
 ```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
